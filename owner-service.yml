@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: ${JDBC_URL:jdbc:mariadb://localhost:3306/ownerdb}
+    username: ${DB_USER:root}
+    password: ${DB_PASSWORD:root}
